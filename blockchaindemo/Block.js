@@ -1,4 +1,4 @@
-// 定义一个区块的类，定义我们此区块中的每个区块的数据结构
+// 定义一个区块的类，定义我们此区块链中的每个区块的数据结构
 class Block {
     constructor(index, previousHash, timestamp, data, hash, nonce) {
         this.index = index;
